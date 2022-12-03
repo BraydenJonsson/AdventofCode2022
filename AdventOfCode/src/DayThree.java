@@ -52,7 +52,8 @@ public class DayThree {
             }
             check = true;
         }
-
+        
+        //Both Solutions
         int runningTotal = 0;
         int temporary;
 
