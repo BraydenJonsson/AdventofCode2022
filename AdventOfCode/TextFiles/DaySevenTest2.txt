@@ -1,0 +1,16 @@
+$ cd /
+$ ls
+dir a
+dir b
+dir c
+$ cd a
+$ ls
+50000 asdf
+15 asdafs
+$ cd ..
+$ cd b
+$ ls
+$ cd ..
+$ cd c
+$ ls
+50000 joasdf
