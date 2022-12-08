@@ -2,10 +2,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class CommonFunctions {
-    public static List<String> readFileLines(String fileName) throws IOException {
+    public static ArrayList<String> readFileLines(String fileName) throws IOException {
         BufferedReader bufReader = new BufferedReader(new FileReader(fileName));
 
         ArrayList<String> lines = new ArrayList<>();
